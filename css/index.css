@@ -5,7 +5,7 @@
 }
 
 body {
-    background: pink;
+    background: #000;
 }
 
 img {
@@ -29,7 +29,7 @@ ol,ul,li {
 
 .wrapBox .conBox h1{
     text-align: center;
-    border-bottom: 1px solid pink;
+    /* border-bottom: 1px solid #000; */
 }
 
 .wrapBox .projectList { 
@@ -43,12 +43,20 @@ ol,ul,li {
 }
 
 .wrapBox .projectList li:hover{
-    background: pink;
+    background: #000;
     cursor: wait;
+    color: #fff;
 }
 
 .wrapBox .projectList li:hover a {
     text-decoration: underline;
-    color: blue;
+    color: #fff;
     cursor: wait;
+}
+
+/* 留言 */
+.liuyan {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
