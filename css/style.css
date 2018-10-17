@@ -151,14 +151,16 @@ h3 {
 
 /* footer */
 .footer {
-    width: 100%;
-    position: fixed;
-    bottom: 1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding-top: 1rem;
-    border-top: 1px solid #ddd;
+  width: 100%;
+  position: fixed;
+  bottom: 0rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  z-index: 99;
 }
 
 .footer a {
