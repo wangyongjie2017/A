@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: #000;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,ul,li {
+    list-style: none;
+}
+
+.wrapBox .conBox{
+    width: 750px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.wrapBox .conBox h1{
+    text-align: center;
+    /* border-bottom: 1px solid #000; */
+}
+
+.wrapBox .projectList { 
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.wrapBox .projectList li a {
+    color: #010101;
+}
+
+.wrapBox .projectList li:hover{
+    background: #000;
+    cursor: wait;
+    color: #fff;
+}
+
+.wrapBox .projectList li:hover a {
+    text-decoration: underline;
+    color: #fff;
+    cursor: wait;
+}
+
+/* 留言 */
+.liuyan {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
